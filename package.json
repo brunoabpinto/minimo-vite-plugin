@@ -1,22 +1,18 @@
 {
   "name": "minimo-vite-plugin",
-  "version": "0.1.0",
-  "description": "Vite plugin for Minimo hot file + full page reload on Blade/Markdown/PHP changes",
-  "type": "module",
+  "version": "0.1.1",
+  "description": "Vite plugin for Minimo",
+  "main": "./src/index.cjs",
+  "module": "./src/index.mjs",
   "exports": {
-    ".": "./src/index.js"
+    ".": {
+      "require": "./src/index.cjs",
+      "import": "./src/index.mjs"
+    }
   },
-  "files": [
-    "src"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "vite",
-    "plugin",
-    "php",
-    "minimo"
-  ],
+  "files": ["src"],
   "peerDependencies": {
     "vite": "^5.0.0 || ^6.0.0"
-  }
+  },
+  "license": "MIT"
 }
