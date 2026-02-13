@@ -1,6 +1,6 @@
 {
   "name": "minimo-vite-plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Vite plugin for Minimo",
   "main": "./src/index.cjs",
   "module": "./src/index.mjs",
