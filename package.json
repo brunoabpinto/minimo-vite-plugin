@@ -1,6 +1,6 @@
 {
   "name": "minimo-vite-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vite plugin for Minimo",
   "main": "./src/index.cjs",
   "module": "./src/index.mjs",
@@ -10,7 +10,9 @@
       "import": "./src/index.mjs"
     }
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "peerDependencies": {
     "vite": "^5.0.0 || ^6.0.0"
   },
